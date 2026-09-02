@@ -7,7 +7,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
 # Mode Configuration
-MODE = "offline"  # "offline" or "online"
+MODE = "online"  # "offline" or "online"
 # offline: Uses local AI models (faster, no API costs)
 # online: Uses OpenAI API (more accurate, requires API key)
 
